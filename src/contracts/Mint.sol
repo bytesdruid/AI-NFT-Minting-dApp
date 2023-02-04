@@ -16,13 +16,13 @@ contract Mint {
         amount = _amount;
     }
 
-    // mint tokens
-    function mint() public {
-        // check if the caller is the owner
-        require(msg.sender == owner, "Only the owner can mint tokens");
-        // mint the tokens
-        ERC20(tokenAddress).mint(amount);
-    }
+    // // mint tokens
+    // function mint() public {
+    //     // check if the caller is the owner
+    //     require(msg.sender == owner, "Only the owner can mint tokens");
+    //     // mint the tokens
+    //     ERC20(tokenAddress).mint(amount);
+    // }
 }
 
 
